@@ -1,0 +1,7 @@
+<li class="card" *ngFor="let food of foods">
+  <img [src]="food.image"/>
+    <h2> {{ food.title }} </h2>
+    <p><b>Valor: </b>{{ food.price  | currency: 'BRL'}}</p>  
+</li>
+
+<button (click)="openModal()">Novo</button>

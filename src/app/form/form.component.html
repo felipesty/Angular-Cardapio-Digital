@@ -1,0 +1,19 @@
+<div class="form-overlay">
+  <div class="form-body">
+    <h2>Cadastre um novo item no cardápio</h2>
+    <form class="input-container" #foodForm="ngForm" (ngSubmit)="onSubmit(foodForm)">
+      <label>Nome</label>
+      <input type="text" name="title" [(ngModel)]="foodForm.value.title">
+      
+      <label>Preço</label>
+      <input type="number" name="price" [(ngModel)]="foodForm.value.price">
+      
+      <label>Imagem </label>
+      <input type="text" name="image" [(ngModel)]="foodForm.value.image">
+      <button class="btn" type="submit">
+        Inserir
+      </button>
+    </form>
+    
+  </div>
+</div>

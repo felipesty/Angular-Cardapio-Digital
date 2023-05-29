@@ -1,0 +1,56 @@
+.form-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0,0,0,0.4);
+  overflow: hidden;
+  height: 105vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .form-body {
+    background-color: white;
+    padding: 24px;
+    height: 70%;
+    width: 70%;
+    border-radius: 24px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 32px;
+    }
+
+    .input-container {
+      width: calc(100% - 24px);
+    }
+
+    input {
+      padding: 12px;
+      border: 2px solid #c6c5c5c5;
+      color: rgba(0,0,0,0.9);
+      font-size: 18px;
+      line-height: 24px;
+      border-radius: 12px;
+      width: 100%;
+  
+      margin-bottom: 12px;
+    }
+
+    .btn {
+      width: 103%;
+      margin-top: 20px;
+      height: 30px;
+      border-radius: 24px;
+    }
+
+    .btn:hover {
+      background-color: #3a44f8;
+      transform: scale(1);
+    }
+    
+  }
+}
