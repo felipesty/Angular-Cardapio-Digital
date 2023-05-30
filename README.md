@@ -36,7 +36,7 @@ Para executar o front-end do Cardápio Digital em sua máquina local, siga as in
 ```bash
     npm install
   ```
-5. Inicie o servidor de desenvolvimento:
+5. Inicie o servidor:
 ```bash
     ng serve
   ```
